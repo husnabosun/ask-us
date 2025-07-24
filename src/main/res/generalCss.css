@@ -1,0 +1,46 @@
+.root{
+ -fx-background-color :  #e7dae8;
+}
+.button{
+    -fx-text-fill: #f700c6;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-border-color: #c286bc ;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 3 10 10 10;
+}
+.displayButton{
+    -fx-text-fill: #fc0388;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-border-color: #c286bc ;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 3 10 10 10;
+}
+#font-button {
+    -fx-font: bold italic 20pt "Arial";
+    -fx-effect: dropshadow( one-pass-box , #4287f5 , 8 , 0.0 , 2 , 0 );
+}
+.category{
+    -fx-text-fill: #e6e3e5;
+}
+.chartTitle{
+    -fx-text-fill: #e6e3e5;
+
+
+}
+.nameInput, .passwordInput, .NewPassword, .confirmPassword{
+      -fx-border-radius: 20;
+      -fx-background-radius: 20;
+      -fx-padding: 3.5 20 20 3.5;
+}
+.nameLabel, .passwordLabel, .newPasswordLabel, .confirmPasswordLabel{
+      -fx-font: bold italic 10pt "Arial";
+      -fx-text-fill: #bd2088;
+}
+.a, .b, .c, .d, .e, .f, .g{
+      -fx-font : bold italic 10pt "Arial";
+      -fx-text-fill: #bd2088
+}

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #e7dae8;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.karakamyonculars.ResultsController">
+   <top>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#closeRes" prefWidth="100.0" style="-fx-background-color: #f2edf1;" text="Back" textFill="#f700c6">
+               <HBox.margin>
+                  <Insets top="5.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
+               </padding>
+               <font>
+                  <Font name="Arial Bold Italic" size="20.0" />
+               </font>
+            </Button>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="10.0" />
+         </BorderPane.margin>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </HBox>
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #e7dae8;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox>
+               <children>
+                  <Text fx:id="ayseText" fill="#bd2088" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="165.6708984375">
+                     <font>
+                        <Font name="Arial Bold Italic" size="27.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="husnaText" fill="#bd2088" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="302.6708984375">
+                     <font>
+                        <Font name="Arial Bold Italic" size="27.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Text fx:id="berkText" fill="#bd2088" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="172.6708984375">
+                     <font>
+                        <Font name="Arial Bold Italic" size="27.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="sevvalText" fill="#bd2088" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="285.21533203125">
+                     <font>
+                        <Font name="Arial Bold Italic" size="27.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Text fx:id="zumraText" fill="#bd2088" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="174.6708984375">
+                     <font>
+                        <Font name="Arial Bold Italic" size="27.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="yagmurText" fill="#bd2088" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="271.6708984375">
+                     <font>
+                        <Font name="Arial Bold Italic" size="27.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Text fx:id="selenText" fill="#bd2088" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="359.06884765625">
+                     <font>
+                        <Font name="Arial Bold Italic" size="27.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+   <right>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <PieChart maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="110.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </right>
+   <left>
+      <Pane prefHeight="340.0" prefWidth="168.0" BorderPane.alignment="CENTER" />
+   </left>
+   <bottom>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER">
+               <children>
+                  <Label alignment="TOP_CENTER" style="-fx-text-fill: #f700c6;" contentDisplay="CENTER" text="KİM KİME OY KULLANAYAN !!??" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Bold Italic" size="27.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label fx:id="ayseVote" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="100.0" text="Label" textAlignment="CENTER" style="-fx-text-fill: #f700c6;" >
+                     <font>
+                        <Font name="Arial Bold Italic" size="12.0 " />
+                     </font>
+                  </Label>
+                  <Label  fx:id="berkVote" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="100.0" textAlignment="CENTER" style="-fx-text-fill: #f700c6;" >
+                  <font>
+                     <Font name="Arial Bold Italic" size="12.0 " />
+                  </font>
+                  </Label>
+                  <Label  fx:id="husnaVote" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="100.0" textAlignment="CENTER" style="-fx-text-fill: #f700c6" >
+                     <font>
+                        <Font name="Arial Bold Italic" size="12.0 " />
+                     </font>
+                  </Label>
+                  <Label fx:id="selenVote" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="100.0" textAlignment="CENTER" style="-fx-text-fill: #f700c6">
+                     <font>
+                        <Font name="Arial Bold Italic" size="12.0 " />
+                     </font>
+                  </Label>
+                  <Label fx:id="sevvalVote" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="100.0" textAlignment="CENTER" style="-fx-text-fill: #f700c6">
+                     <font>
+                        <Font name="Arial Bold Italic" size="12.0 " />
+                     </font>
+                  </Label>
+                  <Label fx:id="yagmurVote" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="100.0" textAlignment="CENTER" style="-fx-text-fill: #f700c6" >
+                     <font>
+                        <Font name="Arial Bold Italic" size="12.0 " />
+                     </font>
+                  </Label>
+                  <Label fx:id="zumraVote" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="100.0" textAlignment="CENTER" style="-fx-text-fill: #f700c6 ;">
+                     <font>
+                     <Font name="Arial Bold Italic" size="12.0 " />
+                  </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="95.0" prefWidth="684.0">
+               <children>
+                  <ImageView fitHeight="95.0" fitWidth="100.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@pic2.jpg" />
+                     </image></ImageView>
+                  <ImageView fitHeight="95.0" fitWidth="100.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@pic3.jpg" />
+                     </image></ImageView>
+                  <ImageView fitHeight="95.0" fitWidth="100.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@pic1.jpg" />
+                     </image></ImageView>
+                  <ImageView fitHeight="95.0" fitWidth="105.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@pic5.jpg" />
+                     </image></ImageView>
+                  <ImageView fitHeight="95.0" fitWidth="100.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@pic6.jpg" />
+                     </image></ImageView>
+                  <ImageView fitHeight="95.0" fitWidth="100.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@pic8.jpg" />
+                     </image></ImageView>
+                  <ImageView fitHeight="95.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pic7.jpg" />
+                     </image></ImageView>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>
