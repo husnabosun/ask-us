@@ -37,11 +37,11 @@ build/
 ### Mac OS ###
 .DS_Store
 
-res/config.properties
-res/pic1.jpg
-res/pic2.jpg
-res/pic3.jpg
-res/pic5.jpg
-res/pic6.jpg
-res/pic7.jpg
-res/pic8.jpg
+src/res/config.properties
+src/res/pic1.jpg
+src/res/pic2.jpg
+src/res/pic3.jpg
+src/res/pic5.jpg
+src/res/pic6.jpg
+src/res/pic7.jpg
+src/res/pic8.jpg
